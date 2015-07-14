@@ -1,0 +1,98 @@
+
+/* CSS Code for All Pages */
+/* Nav and General Styling */
+body {
+	background: #aeaea9;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+nav {
+	z-index: 101;
+	background: #1C6187;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	vertical-align: baseline;
+	display: inline;
+	width: 85px;
+	padding: 10px;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+ul {
+	list-style:none;
+	margin: 0;
+	float: 	left;
+	padding: 10px 0 20px;
+	width: 100%;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0 5px 10px;
+	height: 54px;
+	width: 54px;
+	border: 0;
+	box-shadow: 0 3px 0 0 #222;
+}
+
+#thanksicon {
+	height: 2.5em;
+}
+
+.icon {
+	vertical-align: middle;
+}
+
+.content_pages li { 
+	text-align: center;
+	border-radius: 5px;
+	padding: 10%;
+	margin-top: 30%;
+	background: #17947C;
+	horizontal-align: center;
+	color: white;
+	box-shadow: 2px 2px #172694;
+	transition-duration:.7s;
+}
+
+.content_pages li:hover {
+	background: #19929E;
+	border-radius: 100%;
+
+}
+
+	/* Styles Applied to Main Content */
+	.subject , .maincontent {
+		display: inline-block;
+		border-radius: 5px;
+		margin-right: 20%;
+		margin-left: 20%;
+		padding: 1.5%;
+	}
+
+	.subject {
+		font-size: 2em;
+		margin-top: 10%;
+		margin-bottom: 1%;
+		color: #FFF;
+		font-weight: bold;
+	}
+
+	.maincontent {
+		background: #F8F7DB;
+	}
+
